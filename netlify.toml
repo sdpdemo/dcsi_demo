@@ -1,8 +1,9 @@
 [build]
   command = "npm run build"
-  publish = "dist/dsci-demo-qh"
+  publish = "dist/dsci_demo"
 
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+
